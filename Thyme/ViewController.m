@@ -88,7 +88,7 @@
             NSArray *calendars = self.eventStore.calendars;
             
             for (int i = 0; i < [calendars count]; i++) {
-                if ([((EKCalendar *)calendars[i]).title isEqualToString:@"Daniel Suo"]) {
+                if ([((EKCalendar *)calendars[i]).title isEqualToString:[Utilities getSettingsValue:@"calendar"]]) {
                      event.calendar = (EKCalendar *)calendars[i];
                 }
             }
