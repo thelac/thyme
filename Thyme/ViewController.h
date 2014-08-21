@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <EventKit/EventKit.h>
+#import "Utilities.h"
 
-@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+#import "Activity.h"
+
+@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, UIAlertViewDelegate, UINavigationControllerDelegate>
 
 @end

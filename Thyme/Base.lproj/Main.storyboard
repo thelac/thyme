@@ -28,21 +28,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="tableCell" id="hwL-Cf-QWW">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="tableCell" id="hwL-Cf-QWW">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hwL-Cf-QWW" id="hHU-er-DQV">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="ohL-9m-RuN" id="eBz-hy-KA9"/>
+                            <outlet property="delegate" destination="ohL-9m-RuN" id="aKc-11-5Tc"/>
+                        </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="TRACKA!" id="Efv-Pk-bGy">
                         <barButtonItem key="rightBarButtonItem" title="New" id="d56-Ba-hKk"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="createChunkBarButtonItem" destination="d56-Ba-hKk" id="POn-gG-LXe"/>
+                        <outlet property="createActivityBarButtonItem" destination="d56-Ba-hKk" id="Dao-k5-vaf"/>
                         <outlet property="tableView" destination="U7s-jF-Kxi" id="OUw-pU-7Xj"/>
                     </connections>
                 </viewController>
