@@ -21,6 +21,7 @@
 		4F1D9BAE19A58B41007DC23E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1D9B9019A58B41007DC23E /* UIKit.framework */; };
 		4F1D9BB619A58B41007DC23E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F1D9BB419A58B41007DC23E /* InfoPlist.strings */; };
 		4F1D9BB819A58B41007DC23E /* ThymeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D9BB719A58B41007DC23E /* ThymeTests.m */; };
+		4F1D9BC319A58D55007DC23E /* Chunk.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D9BC219A58D55007DC23E /* Chunk.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		4F1D9BB319A58B41007DC23E /* ThymeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThymeTests-Info.plist"; sourceTree = "<group>"; };
 		4F1D9BB519A58B41007DC23E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4F1D9BB719A58B41007DC23E /* ThymeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThymeTests.m; sourceTree = "<group>"; };
+		4F1D9BC119A58D55007DC23E /* Chunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Chunk.h; path = ../../thyme/Thyme/Chunk.h; sourceTree = "<group>"; };
+		4F1D9BC219A58D55007DC23E /* Chunk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Chunk.m; path = ../../thyme/Thyme/Chunk.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				4F1D9B9B19A58B41007DC23E /* AppDelegate.h */,
 				4F1D9B9C19A58B41007DC23E /* AppDelegate.m */,
 				4F1D9B9E19A58B41007DC23E /* Main.storyboard */,
+				4F1D9BC119A58D55007DC23E /* Chunk.h */,
+				4F1D9BC219A58D55007DC23E /* Chunk.m */,
 				4F1D9BA119A58B41007DC23E /* ViewController.h */,
 				4F1D9BA219A58B41007DC23E /* ViewController.m */,
 				4F1D9BA419A58B41007DC23E /* Images.xcassets */,
@@ -252,6 +257,7 @@
 				4F1D9BA319A58B41007DC23E /* ViewController.m in Sources */,
 				4F1D9B9D19A58B41007DC23E /* AppDelegate.m in Sources */,
 				4F1D9B9919A58B41007DC23E /* main.m in Sources */,
+				4F1D9BC319A58D55007DC23E /* Chunk.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
